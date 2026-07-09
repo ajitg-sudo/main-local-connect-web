@@ -1,3 +1,8 @@
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 /** @type {import('next').NextConfig} */
 const backendOrigin =
   process.env.NEXT_PUBLIC_API_ORIGIN ||
@@ -7,6 +12,13 @@ const backendOrigin =
 const nextConfig = {
   poweredByHeader: false,
   compress: true,
+  // Avoid wrong workspace root on shared hosting with multiple lockfiles
+  outputFileTracingRoot: __dirname,
+  // Limit parallel workers — shared cPanel often hits EAGAIN / EPERM on spawn
+  experimental: {
+    cpus: 1,
+    workerThreads: false
+  },
   images: {
     remotePatterns: [
       {

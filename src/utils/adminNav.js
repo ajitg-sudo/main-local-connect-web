@@ -21,3 +21,8 @@ export function adminTabPath(tabKey) {
   if (!tabKey || tabKey === DEFAULT_ADMIN_TAB) return "/admin";
   return `/admin?tab=${tabKey}`;
 }
+
+export function adminTabTitle(tabKey) {
+  const tab = ADMIN_TABS.find((item) => item.key === tabKey);
+  return tab?.label || "Admin";
+}
