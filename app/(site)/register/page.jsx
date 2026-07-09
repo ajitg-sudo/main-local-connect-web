@@ -1,4 +1,4 @@
-import RegisterPage from "@/pages/user/RegisterPage";
+import RegisterPage from "@/views/user/RegisterPage";
 import { createPageMetadata } from "@/utils/metadata";
 
 export const metadata = createPageMetadata({

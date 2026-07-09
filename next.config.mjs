@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
+const backendOrigin =
+  process.env.NEXT_PUBLIC_API_ORIGIN ||
+  process.env.API_ORIGIN ||
+  "http://localhost:5000";
+
 const nextConfig = {
   poweredByHeader: false,
   compress: true,
@@ -22,11 +27,11 @@ const nextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "http://localhost:5000/api/:path*"
+        destination: `${backendOrigin}/api/:path*`
       },
       {
         source: "/uploads/:path*",
-        destination: "http://localhost:5000/uploads/:path*"
+        destination: `${backendOrigin}/uploads/:path*`
       }
     ];
   }

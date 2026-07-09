@@ -1,4 +1,4 @@
-import ContactPage from "@/pages/user/ContactPage";
+import ContactPage from "@/views/user/ContactPage";
 import { createPageMetadata } from "@/utils/metadata";
 
 export const metadata = createPageMetadata({

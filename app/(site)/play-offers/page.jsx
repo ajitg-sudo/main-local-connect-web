@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import PlayOffersPage from "@/pages/user/PlayOffersPage";
+import PlayOffersPage from "@/views/user/PlayOffersPage";
 import { createPageMetadata, getServerApiBase } from "@/utils/metadata";
 
 export async function generateMetadata({ searchParams }) {

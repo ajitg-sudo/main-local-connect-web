@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import CategoriesPage from "@/pages/user/CategoriesPage";
+import CategoriesPage from "@/views/user/CategoriesPage";
 import { createPageMetadata } from "@/utils/metadata";
 
 export const metadata = createPageMetadata({

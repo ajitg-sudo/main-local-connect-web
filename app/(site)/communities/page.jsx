@@ -1,4 +1,4 @@
-import CommunitiesPage from "@/pages/user/CommunitiesPage";
+import CommunitiesPage from "@/views/user/CommunitiesPage";
 import { createPageMetadata } from "@/utils/metadata";
 
 export const metadata = createPageMetadata({

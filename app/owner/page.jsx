@@ -1,4 +1,4 @@
-import OwnerDashboardPage from "@/pages/owner/OwnerDashboardPage";
+import OwnerDashboardPage from "@/views/owner/OwnerDashboardPage";
 import { createPageMetadata } from "@/utils/metadata";
 
 export const metadata = createPageMetadata({

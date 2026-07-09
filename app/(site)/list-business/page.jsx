@@ -1,4 +1,4 @@
-import ListBusinessPage from "@/pages/user/ListBusinessPage";
+import ListBusinessPage from "@/views/user/ListBusinessPage";
 import { createPageMetadata } from "@/utils/metadata";
 
 export const metadata = createPageMetadata({

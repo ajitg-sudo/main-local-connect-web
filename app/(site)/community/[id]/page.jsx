@@ -1,4 +1,4 @@
-import CommunityDetailPage from "@/pages/user/CommunityDetailPage";
+import CommunityDetailPage from "@/views/user/CommunityDetailPage";
 import { createCommunityMetadata, getServerApiBase } from "@/utils/metadata";
 
 export async function generateMetadata({ params }) {

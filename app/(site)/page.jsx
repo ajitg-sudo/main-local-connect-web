@@ -1,4 +1,4 @@
-import HomePage from "@/pages/user/HomePage";
+import HomePage from "@/views/user/HomePage";
 import { WebSiteJsonLd } from "@/components/seo/SiteJsonLd";
 import { createPageMetadata } from "@/utils/metadata";
 

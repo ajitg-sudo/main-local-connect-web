@@ -1,4 +1,4 @@
-import LegalPage from "@/pages/user/LegalPage";
+import LegalPage from "@/views/user/LegalPage";
 import { createPageMetadata } from "@/utils/metadata";
 
 export const metadata = createPageMetadata({

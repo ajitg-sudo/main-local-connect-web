@@ -1,4 +1,4 @@
-import BusinessDetailPage from "@/pages/user/BusinessDetailPage";
+import BusinessDetailPage from "@/views/user/BusinessDetailPage";
 import { LocalBusinessJsonLd } from "@/components/seo/SiteJsonLd";
 import { createBusinessMetadata, getServerApiBase } from "@/utils/metadata";
 

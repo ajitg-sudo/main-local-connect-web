@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import AdminDashboardPage from "@/pages/admin/AdminDashboardPage";
+import AdminDashboardPage from "@/views/admin/AdminDashboardPage";
 import { adminTabTitle, createPageMetadata } from "@/utils/metadata";
 import { DEFAULT_ADMIN_TAB } from "@/utils/adminNav";
 
