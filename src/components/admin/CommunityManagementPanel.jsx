@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useState } from "react";
 "use client";
 
+import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import { api } from "../../services/api";
 import { useToast } from "../../context/toastContext";
